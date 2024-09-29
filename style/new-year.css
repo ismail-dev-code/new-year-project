@@ -59,3 +59,33 @@ main {
     margin-top: 0;
 }
 /* midnight party style */
+.midnight-party-container{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0.7)
+      ), url("../resources/Vectorrr.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 600px;
+}
+
+.midnight-party h1{
+    color: white;
+    font-size: 64px;
+    width: 642px;
+    margin-bottom: 0;
+} 
+.midnight-party p{
+    width: 697px;
+    font-size: 18px;
+    color: white;
+}
+.midnight-party h6{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

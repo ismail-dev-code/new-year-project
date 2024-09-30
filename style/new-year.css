@@ -1,5 +1,6 @@
 body {
   font-family: "Merriweather", serif;
+  margin: 0;
 }
 main {
   width: 1320px;
@@ -198,4 +199,32 @@ main {
   background-color: #ff0000;
   color: white;
   cursor: pointer;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 120px 140px;
+  margin-top: 120px;
+}
+.footer-address{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social-img{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.address p{
+  width: 375px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer-unsubscribe{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 98px;
+}
+.footer-unsubscribe p{
+  margin-bottom: 0;
 }
